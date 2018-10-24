@@ -1,19 +1,13 @@
 <snippet>
     <content><![CDATA[
-import React from 'react';
+import React, { Component } from 'react';
 
-export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component {
-	static propTypes = {
-		${3:name}: React.PropTypes.${4:string},
-	};
-
-	constructor(props) {
-		super(props);
-	}
-
+export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
 	render() {
 		return (
-			<${5:div}></${5:div}>
+			<${5:div}>
+				
+			</${5:div}>
 		);
 	}
 }
