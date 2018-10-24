@@ -1,0 +1,13 @@
+{
+  "name": "sublime-react-es6-boyce",
+  "version": "0.2",
+  "author": "Ricky Boyce <boycce@gmail.com>",
+  "description": "ReactJS helpers for Sublime text 3",
+  "scripts": { },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Boycce/sublime-react-es6-boyce"
+  },
+  "dependencies" : {},
+  "license": "Apache 2.0"
+}
